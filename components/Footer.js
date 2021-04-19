@@ -87,6 +87,7 @@ export default function Footer() {
           decision and is not influenced by Yearn Classic Finance.
         </div>
       </div>
+      <span className="poweredBy">Powered by <a href="https://twitter.com/Pawlicki_">Marcin Pawlicki</a></span>
     </footer>
   );
 }
