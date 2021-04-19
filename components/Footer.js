@@ -22,32 +22,57 @@ export default function Footer() {
         <div className='footer--tracking-links'>
           <p className='footer--section-name'>Tracking</p>
           <div className='footer--links-wrapper'>
-            <a href=''>BSC</a>
-            <a href=''>DxSale</a>
-            <a href=''>BogCharts</a>
-            <a href=''>CoinMarketCap</a>
-            <a href=''>CoinGecko</a>
+            <a
+              href='https://bscscan.com/address/0x9C28E48Ea9170d9A9cB76d338655b8bd4124BC7A'
+              target='_blank'>
+              BSC
+            </a>
+            <a href='https://dxsale.app/app/pages/defipresale?saleID=512&chain=BSC' target='_blank'>
+              DxSale
+            </a>
+            <a
+              href='https://charts.bogged.finance/?token=0x9C28E48Ea9170d9A9cB76d338655b8bd4124BC7A'
+              target='_blank'>
+              BogCharts
+            </a>
+            <a href='https://earnx.yearnclassic.finance/#' target='_blank'>
+              CoinMarketCap
+            </a>
+            <a href='https://earnx.yearnclassic.finance/#' target='_blank'>
+              CoinGecko
+            </a>
           </div>
         </div>
 
         <div className='footer--tracking-links'>
           <p className='footer--section-name'>BSCSCAN</p>
           <div className='footer--links-wrapper'>
-            <a href=''>Contract Address</a>
-            <a href=''>EarnX Burnt</a>
-            <a href=''>Locked Liquidity</a>
-            <a href=''>Pool</a>
+            <a
+              href='https://bscscan.com/token/0x9c28e48ea9170d9a9cb76d338655b8bd4124bc7a'
+              target='_blank'>
+              Contract Address
+            </a>
+            <a
+              href='https://bscscan.com/token/0x9c28e48ea9170d9a9cb76d338655b8bd4124bc7a?a=0x000000000000000000000000000000000000dead'
+              target='_blank'>
+              EarnX Burnt
+            </a>
+            <a
+              href='https://bscscan.com/token/0x9c28e48ea9170d9a9cb76d338655b8bd4124bc7a?a=0x9c28e48ea9170d9a9cb76d338655b8bd4124bc7a)'
+              target='_blank'>
+              Locked Liquidity Pool
+            </a>
           </div>
         </div>
 
         <div className='footer--social-links'>
-          <a href=''>
+          <a href='https://twitter.com/earn_finance' target='_blank'>
             <Twitter />
           </a>
-          <a href=''>
+          <a href='https://t.me/yearnX' target='_blank'>
             <Telegram />
           </a>
-          <a href=''>
+          <a href='https://earnfinance.medium.com/' target='_blank'>
             <Medium />
           </a>
         </div>

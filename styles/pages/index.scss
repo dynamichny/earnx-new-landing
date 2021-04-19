@@ -9,6 +9,9 @@
     bottom: 0;
     right: 0;
     z-index: 0;
+    @media (max-width: 1150px) {
+      filter: blur(3px);
+    }
   }
 }
 

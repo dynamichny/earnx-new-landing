@@ -1,0 +1,115 @@
+.road-map--wrapper {
+  max-width: 1440px;
+  margin: auto;
+  padding: 25px 40px;
+  h2 {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+}
+
+.hex:before {
+  content: ' ';
+  width: 0;
+  height: 0;
+  border-bottom: 30px solid #d8b811;
+  border-left: 52px solid transparent;
+  border-right: 52px solid transparent;
+  position: absolute;
+  top: -30px;
+}
+
+.hex {
+  margin-top: 30px;
+  width: 104px;
+  height: 60px;
+  background-color: #d8b811;
+  position: absolute;
+  left: -20px;
+  top: -30px;
+  span {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+  }
+}
+
+.hex:after {
+  content: '';
+  width: 0;
+  position: absolute;
+  bottom: -30px;
+  border-top: 30px solid #d8b811;
+  border-left: 52px solid transparent;
+  border-right: 52px solid transparent;
+}
+
+.road-map--quartal-wrapper {
+  border-left: 20px solid #d8b811;
+  position: relative;
+  margin: auto;
+  max-width: 700px;
+  &:not(:last-of-type) {
+    padding-bottom: 50px;
+  }
+  .road-map--quartal__tittle {
+    padding-left: 120px;
+    padding-bottom: 2px;
+    margin-top: 20px;
+    border-bottom: 20px solid #d8b811;
+    font-size: 32px;
+    font-weight: 800;
+    color: #d8b811;
+  }
+
+  ul {
+    padding: 50px 0 0;
+  }
+  li {
+    list-style-type: none;
+    font-size: 17px;
+    font-weight: 500;
+    &:not(:last-of-type) {
+      padding: 10px 0;
+    }
+    &:last-of-type {
+      padding: 10px 0 2px;
+    }
+    span {
+      padding: 0 0 0 120px;
+      //border-bottom: 2px solid #d8b811;
+      &::before {
+        content: '• ';
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .road-map--quartal-wrapper {
+    li {
+      padding: 10px 20px !important;
+      span {
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .road-map--wrapper {
+    padding: 20px;
+  }
+  .road-map--quartal__tittle {
+    padding-left: 90px !important;
+  }
+}

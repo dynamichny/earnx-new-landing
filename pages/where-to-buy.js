@@ -7,7 +7,6 @@ export default function WhereToBuy() {
     <div style={{ height: '100%' }}>
       <Head>
         <title>EarnX | Where to buy</title>
-        <link rel='icon' href='/favicon.ico' />
       </Head>
       <Layout>
         <div className='where-to-buy--wrapper'>
