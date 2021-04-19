@@ -3,7 +3,7 @@ import FormInput from './FormInput';
 
 export default function Contact() {
   return (
-    <div className='contact--wrapper'>
+    <div className='contact--wrapper' id="contact">
       <h2>Contact</h2>
       <p>Need to speak to us? We are here for you!</p>
       <form>
@@ -11,6 +11,7 @@ export default function Contact() {
         <FormInput label='Email' type='email' placeholder='Please ender your email' id='email' />
         <FormInput label='Subject' type='text' placeholder='Please ender subject' id='subject' />
         <FormInput label='Message' type='textarea' placeholder='Ender your message here' id='email' />
+        <button>Send</button>
       </form>
     </div>
   );

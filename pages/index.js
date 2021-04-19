@@ -1,4 +1,4 @@
-import React, { Children, Component } from 'react';
+import React, { Component } from 'react';
 import Head from 'next/head';
 import Layout from '../components/Layout';
 import Newsletter from '../components/Newsletter';
@@ -7,6 +7,7 @@ import Contact from '../components/Contact';
 import * as THREE from 'three';
 
 let SVGLoader, GUI;
+const FULL_CANVAS_WIDTH = 1150;
 
 class Home extends Component {
   componentDidMount() {
@@ -15,12 +16,17 @@ class Home extends Component {
     var scene = new THREE.Scene();
     var camera = new THREE.PerspectiveCamera(
       75,
-      parent.clientWidth / 2 / parent.clientHeight,
+      parent.clientWidth > FULL_CANVAS_WIDTH
+        ? parent.clientWidth / 2 / parent.clientHeight
+        : parent.clientWidth / parent.clientHeight,
       0.1,
       1000,
     );
     var renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
-    renderer.setSize(parent.clientWidth / 2, parent.clientHeight);
+    renderer.setSize(
+      parent.clientWidth > FULL_CANVAS_WIDTH ? parent.clientWidth / 2 : parent.clientWidth,
+      parent.clientHeight,
+    );
     parent.appendChild(renderer.domElement);
 
     SVGLoader = require('three/examples/jsm/loaders/SVGLoader').SVGLoader;
@@ -31,7 +37,11 @@ class Home extends Component {
     group.position.x = 0;
     group.position.y = 0;
 
-    camera.position.set(30, 40, 0);
+    if (parent.clientWidth > FULL_CANVAS_WIDTH) {
+      camera.position.set(30, 40, 0);
+    } else {
+      camera.position.set(0, 40, 0);
+    }
 
     for (let i = 0; i < paths.length; i++) {
       const path = paths[i];
@@ -94,10 +104,24 @@ class Home extends Component {
     window.addEventListener(
       'resize',
       (e) => {
-        camera.aspect = parent.clientWidth / 2 / parent.clientHeight;
+        camera.aspect =
+          parent.clientWidth > FULL_CANVAS_WIDTH
+            ? parent.clientWidth / 2 / parent.clientHeight
+            : parent.clientWidth / parent.clientHeight;
         camera.updateProjectionMatrix();
 
-        renderer.setSize(parent.clientWidth / 2, parent.clientHeight);
+        renderer.setSize(
+          parent.clientWidth > FULL_CANVAS_WIDTH ? parent.clientWidth / 2 : parent.clientWidth,
+          parent.clientHeight,
+        );
+        if (parent.clientWidth < FULL_CANVAS_WIDTH && camera.position.x != 0) {
+          camera.position.x = 0;
+          console.log('11');
+          console.log(camera);
+        } else if (parent.clientWidth > FULL_CANVAS_WIDTH && camera.position.x != 30) {
+          camera.position.x = 30;
+          console.log('22');
+        }
       },
       false,
     );

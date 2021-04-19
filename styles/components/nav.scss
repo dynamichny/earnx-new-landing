@@ -10,6 +10,9 @@
   left: 0;
   right: 0;
   z-index: 100000;
+  @media (max-width: 640px) {
+    padding: 20px;
+  }
 }
 
 .nav--list {
@@ -19,9 +22,110 @@
     margin: 0 35px;
     font-weight: 500;
     font-size: 16px;
-    transition: all .2s;
+    transition: all 0.2s;
+    &:hover {
+      color: rgba(0, 0, 0, 0.85);
+    }
+    @media (max-width: 840px) {
+      margin: 0 2vw;
+    }
+  }
+  @media (max-width: 640px) {
+    display: none;
+  }
+}
+
+.nav--hamburger-icon {
+  height: 3px;
+  width: 30px;
+  border-radius: 10px;
+  background: rgb(0, 0, 0);
+  position: relative;
+  display: block;
+  transition: all 0.3s;
+  cursor: pointer;
+  display: none;
+  z-index: 1000;
+  &::before {
+    content: '';
+    background: rgb(0, 0, 0);
+    height: 3px;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+    right: 0;
+    left: 0;
+    top: 9px;
+    transition: all 0.3s;
+  }
+  &::after {
+    content: '';
+    background: rgb(0, 0, 0);
+    height: 3px;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+    right: 0;
+    left: 0;
+    top: -9px;
+    transition: all 0.3s;
+  }
+  @media (max-width: 640px) {
+    display: block;
+  }
+}
+.nav--hamburger-icon-opened {
+  background: transparent;
+  &::before {
+    width: 100%;
+    border-radius: 10px;
+    transition: all 0.3s;
+    transform: rotate(45deg);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  &::after {
+    content: '';
+    width: 100%;
+    border-radius: 10px;
+    transition: all 0.3s;
+    transform: rotate(-45deg);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.nav--hamburger-menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 320px;
+  background: rgb(238, 238, 238);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transform: translateX(100%);
+  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+  padding: 25vh 20px;
+  a {
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    margin: 0 35px;
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 0.2s;
     &:hover {
       color: rgba(0, 0, 0, 0.85);
     }
   }
+}
+
+.nav--hamburger-menu-opened {
+  transform: translateX(0%);
 }

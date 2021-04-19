@@ -1,10 +1,4 @@
 import React from 'react';
-import Security from '../assets/reasons/security.svg';
-import Sec from '../assets/reasons/2.svg';
-import Percent from '../assets/reasons/10p.svg';
-import Bsc from '../assets/reasons/benefit_bsc.svg';
-import Gift from '../assets/reasons/gift.svg';
-import Fire from '../assets/reasons/fire.svg';
 
 export default function Reasons() {
   return (
@@ -13,7 +7,7 @@ export default function Reasons() {
       <div className='reasons--list'>
         <div className='reasons--list__item'>
           <div>
-            <Security />
+          <img src="/reasons/safe.png" />
           </div>
           <div>
             <p>SAFETY</p>
@@ -25,7 +19,7 @@ export default function Reasons() {
         </div>
         <div className='reasons--list__item'>
           <div>
-            <Sec />
+          <img src="/reasons/increasing.png" />
           </div>
           <div>
             <p>CONSTANT BENEFITS</p>
@@ -36,7 +30,7 @@ export default function Reasons() {
         </div>
         <div className='reasons--list__item'>
           <div>
-            <Bsc />
+          <img src="/reasons/low-gas.png" />
           </div>
           <div>
             <p>SCALABILITY</p>
@@ -48,7 +42,7 @@ export default function Reasons() {
         </div>
         <div className='reasons--list__item'>
           <div>
-            <Gift />
+          <img src="/reasons/gift.png" />
           </div>
           <div>
             <p>UTILITY</p>
@@ -60,7 +54,7 @@ export default function Reasons() {
         </div>
         <div className='reasons--list__item'>
           <div>
-            <Percent />
+          <img src="/reasons/10.png" />
           </div>
           <div>
             <p>GOOD CONDITIONS</p>
@@ -72,7 +66,7 @@ export default function Reasons() {
         </div>
         <div className='reasons--list__item'>
           <div>
-            <Fire />
+            <img src="/reasons/fire.png" />
           </div>
           <div>
             <p>STABILITY</p>

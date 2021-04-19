@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   label {
-    font-style: 12px;
+    font-size: 12px;
     font-weight: 500;
     margin-bottom: 5px;
   }
@@ -26,6 +26,9 @@
     &::placeholder {
       font-weight: 400;
     }
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
   textarea {
     height: 200px;

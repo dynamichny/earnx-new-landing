@@ -1,0 +1,52 @@
+.where-to-buy--wrapper {
+  h2 {
+    text-align: center;
+  }
+}
+
+.where-to-buy--grid {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.where-to-buy--grid-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  &__bg {
+    width: 100%;
+    filter: blur(5px) brightness(0.6);
+    transition: all 0.2s;
+  }
+  &:hover {
+    .where-to-buy--grid-item__bg {
+      filter: blur(5px) brightness(0.4);
+    }
+  }
+}
+.where-to-buy--grid-item__texts {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .where-to-buy--grid {
+    grid-template-columns: 1fr;
+  }
+}

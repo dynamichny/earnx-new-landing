@@ -1,6 +1,6 @@
 .reasons--wrapper {
   max-width: 1440px;
-  margin: 180px auto;
+  margin: 180px auto 30px;
 
   h2 {
     text-align: center;
@@ -9,7 +9,9 @@
 }
 .reasons--list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .reasons--list__item {
   display: flex;
@@ -20,14 +22,15 @@
   padding: 30px;
   border-radius: 20px;
   align-items: center;
+  min-width: 420px;
   
   //box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   //background: #fefefe;
   div:first-of-type {
     margin-right: 30px;
   }
+  align-self: center;
   &:nth-child(even) {
-    align-self: flex-end;
   }
   p {
     font-size: 15px;
@@ -40,5 +43,22 @@
     font-weight: 600;
     font-size: 18px;
     color: black;
+  }
+
+  @media (max-width: 840px) {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .reasons--wrapper {
+    margin: 40px auto 30px;
+    h2 {
+      margin: 30px auto;
+    }
+  }
+  .reasons--list__item {
+    padding: 20px;
+    margin-bottom: 15px;
   }
 }

@@ -1,6 +1,7 @@
 .contact--wrapper {
   max-width: 1440px;
   margin: 0 auto 150px;
+  padding: 150px 0 0;
   h2,
   p {
     text-align: center;
@@ -14,5 +15,23 @@
   form {
     max-width: 700px;
     margin: 30px auto;
+    width: calc(100vw - 40px);
+  }
+
+  button {
+    padding: 10px 14px;
+    height: 50px;
+    margin: 0 0 0 7px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(45deg, #75d3ff, #ff3fff);
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    width: 250px;
+    margin: auto;
+    display: block;
   }
 }

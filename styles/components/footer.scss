@@ -76,3 +76,23 @@ footer {
   font-size: 14px;
   font-weight: 300;
 }
+
+@media (max-width: 640px) {
+  .footer--wrapper {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 20px;
+  }
+  .footer--desc {
+    grid-area: 1/1/2/3;
+    p {
+      width: 100%;
+    }
+  }
+  .footer--disclaimer {
+    grid-area: 4/1/5/3;
+    padding-right: 0;
+  }
+  .footer--copyright {
+    grid-area: auto;
+  }
+}
