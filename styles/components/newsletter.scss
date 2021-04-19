@@ -1,0 +1,37 @@
+.newsletter--wrapper {
+  margin: 40px 0;
+  width: 50%;
+  display: flex;
+  input {
+    flex: 1;
+    height: 50px;
+    padding: 10px 14px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-family: 'Montserrat';
+    font-size: 15px;
+    transition: all 0.2s;
+    outline: none;
+    font-weight: 500;
+    &:active,
+    &:focus {
+      border-color: rgba(0, 0, 0, 1);
+    }
+    &::placeholder {
+      font-weight: 400;
+    }
+  }
+  button {
+    padding: 10px 14px;
+    height: 50px;
+    margin: 0 0 0 7px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(45deg, #75d3ff, #ff3fff);
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+  }
+}

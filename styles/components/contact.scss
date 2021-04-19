@@ -1,0 +1,18 @@
+.contact--wrapper {
+  max-width: 1440px;
+  margin: 0 auto 150px;
+  h2,
+  p {
+    text-align: center;
+  }
+  h2 {
+    margin: 0 0 20px;
+  }
+  p {
+    margin: 0 0 40px;
+  }
+  form {
+    max-width: 700px;
+    margin: 30px auto;
+  }
+}

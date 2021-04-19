@@ -8,7 +8,6 @@ export default function Nav() {
       </a>
 
       <div className='nav--list'>
-        <a href=''>Tokenomics</a>
         <a href=''>Where to buy</a>
         <a href=''>Road map</a>
         <a href=''>Nfts</a>

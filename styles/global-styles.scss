@@ -13,6 +13,12 @@ body {
   height: 100%;
 }
 
+h2 {
+  font-size: 36px;
+  color: black;
+  font-weight: 700;
+}
+
 // Pages
 @import './pages/index.scss';
 
@@ -20,3 +26,7 @@ body {
 @import './components/footer.scss';
 @import './components/nav.scss';
 @import './components/layout.scss';
+@import './components/newsletter.scss';
+@import './components/reasons.scss';
+@import './components/contact.scss';
+@import './components/fileInput.scss';

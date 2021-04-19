@@ -1,0 +1,33 @@
+.forminput--wrapper {
+  margin-bottom: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  label {
+    font-style: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  input, textarea {
+    height: 50px;
+    padding: 10px 14px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-family: 'Montserrat';
+    font-size: 14px;
+    transition: all 0.2s;
+    outline: none;
+    font-weight: 500;
+    resize: none;
+    &:active,
+    &:focus {
+      border-color: rgba(0, 0, 0, 1);
+    }
+    &::placeholder {
+      font-weight: 400;
+    }
+  }
+  textarea {
+    height: 200px;
+  }
+}
