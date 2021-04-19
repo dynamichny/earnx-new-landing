@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150"  viewBox="0 0 1073.411 384">
+  <g id="Group_7" data-name="Group 7" transform="translate(-429.589 -258)">
+    <g id="Group_6" data-name="Group 6">
+      <g id="Group_1" data-name="Group 1" transform="translate(4)">
+        <path id="Path_1" data-name="Path 1" d="M534.926,401.155H437.589v99.9h97.337" transform="translate(0)" fill="none" stroke="#000" stroke-width="24"/>
+        <path id="Path_2" data-name="Path 2" d="M437.589,449.5h58.574" fill="none" stroke="#000" stroke-width="24"/>
+      </g>
+      <g id="Group_2" data-name="Group 2" transform="translate(0 4)">
+        <path id="Path_3" data-name="Path 3" d="M607.665,508.757V398.189h88.661V508.757" fill="none" stroke="#000" stroke-width="24"/>
+        <path id="Path_4" data-name="Path 4" d="M607.665,457.767h87.8" fill="none" stroke="#000" stroke-width="24"/>
+      </g>
+      <g id="Group_3" data-name="Group 3">
+        <path id="Path_5" data-name="Path 5" d="M779.261,509.734V398.242h88.587v58.607l-88.587.844" fill="none" stroke="#000" stroke-width="24"/>
+        <path id="Path_6" data-name="Path 6" d="M834.188,457.473l41.28,52.261" fill="none" stroke="#000" stroke-width="24"/>
+      </g>
+      <path id="Path_7" data-name="Path 7" d="M954.732,509.734V398.889h90.182V509.734" fill="none" stroke="#000" stroke-width="24"/>
+    </g>
+    <g id="Group_5" data-name="Group 5">
+      <g id="Group_4" data-name="Group 4">
+        <path id="Polygon_1" data-name="Polygon 1" d="M22.5,0,45,27H0Z" transform="translate(1315 417)" fill="#000"/>
+        <path id="Polygon_3" data-name="Polygon 3" d="M25.5,0,51,30H0Z" transform="translate(1351 371)" fill="#000"/>
+        <path id="Polygon_13" data-name="Polygon 13" d="M22.5,0,45,28H0Z" transform="translate(1360 482) rotate(180)" fill="#000"/>
+        <path id="Polygon_15" data-name="Polygon 15" d="M25.5,0,51,30H0Z" transform="translate(1397 441) rotate(180)" fill="#000"/>
+        <path id="Polygon_18" data-name="Polygon 18" d="M25,0,50,30H0Z" transform="translate(1436 394) rotate(180)" fill="#000"/>
+        <path id="Polygon_20" data-name="Polygon 20" d="M25.5,0,51,30H0Z" transform="translate(1329 441) rotate(180)" fill="#000"/>
+        <path id="Polygon_21" data-name="Polygon 21" d="M25.5,0,51,30H0Z" transform="translate(1273 371)" fill="#000"/>
+        <path id="Polygon_22" data-name="Polygon 22" d="M25,0,50,30H0Z" transform="translate(1289 394) rotate(180)" fill="#000"/>
+        <path id="Polygon_23" data-name="Polygon 23" d="M25.5,0,51,30H0Z" transform="translate(1278 457)" fill="#000"/>
+        <path id="Polygon_24" data-name="Polygon 24" d="M25.5,0,51,30H0Z" transform="translate(1346 457)" fill="#000"/>
+        <path id="Polygon_25" data-name="Polygon 25" d="M25.5,0,51,30H0Z" transform="translate(1324 527) rotate(180)" fill="#000"/>
+        <path id="Polygon_26" data-name="Polygon 26" d="M25.5,0,51,30H0Z" transform="translate(1402 527) rotate(180)" fill="#000"/>
+        <path id="Polygon_27" data-name="Polygon 27" d="M25.5,0,51,30H0Z" transform="translate(1238 503)" fill="#000"/>
+        <path id="Polygon_28" data-name="Polygon 28" d="M25.5,0,51,30H0Z" transform="translate(1385 503)" fill="#000"/>
+        <path id="Path_8" data-name="Path 8" d="M1389.587,353.337l14.094-16,29.613,16Z" fill="#000"/>
+        <path id="Path_9" data-name="Path 9" d="M1389.587,353.337l14.094-16,29.613,16Z" transform="translate(2672.882 897.669) rotate(180)" fill="#000"/>
+        <path id="Path_10" data-name="Path 10" d="M0,0,14.094,16,43.707,0Z" transform="translate(1392.293 543.663)" fill="#000"/>
+        <path id="Path_11" data-name="Path 11" d="M43.707,16,29.613,0,0,16Z" transform="translate(1241.647 337.664)" fill="#000"/>
+      </g>
+      <g id="Polygon_19" data-name="Polygon 19" transform="translate(1503 258) rotate(90)" fill="none">
+        <path d="M288,0l96,165L288,330H96L0,165,96,0Z" stroke="none"/>
+        <path d="M 106.3522338867188 18 L 20.82492065429688 165 L 106.3521118164062 312 L 277.6477966308594 312 L 363.175048828125 165 L 277.6477966308594 18 L 106.3522338867188 18 M 96.00006103515625 0 L 288 0 L 384 165 L 288 330 L 95.99990844726562 330 L -3.0517578125e-05 165 L 96.00006103515625 0 Z" stroke="none" fill="#000"/>
+      </g>
+    </g>
+  </g>
+</svg>

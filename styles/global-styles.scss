@@ -1,0 +1,22 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+#__next {
+  height: 100%;
+}
+
+// Pages
+@import './pages/index.scss';
+
+// Components
+@import './components/footer.scss';
+@import './components/nav.scss';
+@import './components/layout.scss';

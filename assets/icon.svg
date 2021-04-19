@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 330 384">
+  <g id="icon" transform="translate(-1173 -258)">
+    <g id="Group_5" data-name="Group 5" fill="#CCAA35" opacity="0.7">
+      <g id="Group_4" data-name="Group 4">
+        <path id="Polygon_1" data-name="Polygon 1" d="M22.5,0,45,27H0Z" transform="translate(1315 417)"/>
+        <path id="Polygon_3" data-name="Polygon 3" d="M25.5,0,51,30H0Z" transform="translate(1351 371)"/>
+        <path id="Polygon_13" data-name="Polygon 13" d="M22.5,0,45,28H0Z" transform="translate(1360 482) rotate(180)"/>
+        <path id="Polygon_15" data-name="Polygon 15" d="M25.5,0,51,30H0Z" transform="translate(1397 441) rotate(180)"/>
+        <path id="Polygon_18" data-name="Polygon 18" d="M25,0,50,30H0Z" transform="translate(1436 394) rotate(180)"/>
+        <path id="Polygon_20" data-name="Polygon 20" d="M25.5,0,51,30H0Z" transform="translate(1329 441) rotate(180)"/>
+        <path id="Polygon_21" data-name="Polygon 21" d="M25.5,0,51,30H0Z" transform="translate(1273 371)"/>
+        <path id="Polygon_22" data-name="Polygon 22" d="M25,0,50,30H0Z" transform="translate(1289 394) rotate(180)"/>
+        <path id="Polygon_23" data-name="Polygon 23" d="M25.5,0,51,30H0Z" transform="translate(1278 457)"/>
+        <path id="Polygon_24" data-name="Polygon 24" d="M25.5,0,51,30H0Z" transform="translate(1346 457)"/>
+        <path id="Polygon_25" data-name="Polygon 25" d="M25.5,0,51,30H0Z" transform="translate(1324 527) rotate(180)"/>
+        <path id="Polygon_26" data-name="Polygon 26" d="M25.5,0,51,30H0Z" transform="translate(1402 527) rotate(180)"/>
+        <path id="Polygon_27" data-name="Polygon 27" d="M25.5,0,51,30H0Z" transform="translate(1238 503)"/>
+        <path id="Polygon_28" data-name="Polygon 28" d="M25.5,0,51,30H0Z" transform="translate(1385 503)"/>
+        <path id="Path_8" data-name="Path 8" d="M1389.59,353.337l14.094-16,29.613,16Z"/>
+        <path id="Path_9" data-name="Path 9" d="M1389.59,353.337l14.094-16,29.613,16Z" transform="translate(2672.882 897.669) rotate(180)"/>
+        <path id="Path_10" data-name="Path 10" d="M0,0,14.094,16,43.707,0Z" transform="translate(1392.293 543.663)"/>
+        <path id="Path_11" data-name="Path 11" d="M43.707,16,29.613,0,0,16Z" transform="translate(1241.647 337.664)"/>
+      </g>
+      <g id="Polygon_19" data-name="Polygon 19" transform="translate(1503 258) rotate(90)">
+        <path id="Path_1" data-name="Path 1" d="M288,0l96,165L288,330H96L0,165,96,0Z" fill="none"/>
+        <path id="Path_2" data-name="Path 2" d="M106.352,18,20.825,165l85.527,147h171.3l85.527-147L277.648,18h-171.3M96,0H288l96,165L288,330H96L0,165Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
