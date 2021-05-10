@@ -11,7 +11,6 @@ const FULL_CANVAS_WIDTH = 1150;
 
 class Home extends Component {
   componentDidMount() {
-    // === THREE.JS CODE START ===
     const parent = document.querySelector('.home-page--hero-wrapper');
     var scene = new THREE.Scene();
     var camera = new THREE.PerspectiveCamera(
@@ -116,17 +115,13 @@ class Home extends Component {
         );
         if (parent.clientWidth < FULL_CANVAS_WIDTH && camera.position.x != 0) {
           camera.position.x = 0;
-          console.log('11');
-          console.log(camera);
         } else if (parent.clientWidth > FULL_CANVAS_WIDTH && camera.position.x != 30) {
           camera.position.x = 30;
-          console.log('22');
         }
       },
       false,
     );
     animate();
-    // === THREE.JS EXAMPLE CODE END ===
   }
   render() {
     return (
